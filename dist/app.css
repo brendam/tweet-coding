@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 32px auto;
+  width: 700px;
+}
+
+.tweet-id-editor textarea {
+  width: 160px;
+  height: 200px;
+}
+
+.output textarea {
+  overflow: auto;
+  width: 500px;
+  height: 200px;
+}
+
+.tweet-coder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 32px 0;
+}
+
+.coding-form {
+  margin: 16px;
+}
+
+.coding-form > * {
+  margin-bottom: 16px;
+}
+
+.note label {
+  display: block;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.note input {
+  font-size: 14px;
+  padding: 6px 8px;
+}
+
+.options label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.options label input {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  margin-right: 4px;
+}
+
+details {
+  margin: 16px 0;
+}
+
+summary {
+  cursor: pointer;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.pager > * {
+  padding: 8px 16px;
+}
+
+.pager {
+  text-align: center;
+}
