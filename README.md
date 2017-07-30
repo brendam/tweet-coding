@@ -19,7 +19,7 @@ The coding can be exported to a CSV file by using the `Save Data (CSV)` link.
 
 If you use this tool in your research please cite it as
 
-TBA
+Brenda Moon (2017) tweet-coding 1.0: Zenodo. [![DOI](https://zenodo.org/badge/98805900.svg)](https://zenodo.org/badge/latestdoi/98805900)
 
 ## Development
 
